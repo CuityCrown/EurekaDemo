@@ -1,0 +1,22 @@
+server:
+  port: 8095
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8096/eureka
+  instance:
+    instance-id: myEurekaDemoClient
+    prefer-ip-address: true
+
+
+#数据源配置
+spring:
+  datasource:
+    driver-class-name: com.sap.db.jdbc.Driver
+    username: SCI_APPLICATION
+    password: Initial0
+    url: jdbc:sap://10:122:13:22:30353?reconnect=true
+  application:
+    name: myEurekaDemo
+
