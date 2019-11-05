@@ -10,8 +10,6 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>eureka-demo-client</module>
-        <module>eureka-demo-client</module>
-        <module>eureka-demo-client</module>
         <module>eureka-demo-service</module>
     </modules>
 
