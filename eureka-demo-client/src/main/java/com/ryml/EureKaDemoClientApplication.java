@@ -14,10 +14,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
  */
 @EnableFeignClients
 @SpringCloudApplication
-public class DemoApplication {
+public class EureKaDemoClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class,args);
+        SpringApplication.run(EureKaDemoClientApplication.class,args);
     }
 
 }
