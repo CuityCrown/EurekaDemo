@@ -8,9 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * 使用@FeignClient注解
+ * description:
  *
- * @author len
+ * @author 刘一博
+ * @version V1.0
+ * @date 2019/11/5 11:00
  */
 @FeignClient(name = "${spring.application.name}", fallback = InventorySquaresetService.FeignServiceFallback.class)
 public interface InventorySquaresetService {

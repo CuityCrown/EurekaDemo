@@ -4,7 +4,11 @@ import com.ryml.entity.User;
 import org.springframework.web.bind.annotation.*;
 
 /**
- * @author len
+ * description:
+ *
+ * @author 刘一博
+ * @version V1.0
+ * @date 2019/11/5 11:00
  */
 @RestController
 @RequestMapping("/user")

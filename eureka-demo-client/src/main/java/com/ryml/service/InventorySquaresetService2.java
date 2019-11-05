@@ -7,8 +7,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * 使用@FeignClient注解
- * @author len
+ * description:
+ *
+ * @author 刘一博
+ * @version V1.0
+ * @date 2019/11/5 11:00
  */
 @FeignClient(name = "myEurekaDemo1",fallback = InventorySquaresetService2.FeignServiceFallback2.class)
 public interface InventorySquaresetService2 {

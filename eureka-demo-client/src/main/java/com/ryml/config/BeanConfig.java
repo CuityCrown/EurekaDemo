@@ -11,7 +11,7 @@ import org.springframework.web.client.RestTemplate;
  *
  * @author 刘一博
  * @version V1.0
- * @date 2019/11/4 18:42
+ * @date 2019/11/5 11:00
  */
 @Configuration
 @EnableDiscoveryClient
